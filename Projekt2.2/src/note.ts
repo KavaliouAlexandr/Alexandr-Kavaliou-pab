@@ -37,12 +37,12 @@ for (const item of b) {
 }
 
 //Szukanie indexu
-const kasiaIndex = ludzie.findIndex((ludzie) => ludzie.imie === "Kasia");
+const kasiaIndex = ludzie.findIndex((ludzie) => ludzie.imie === "Nastia");
 const kasiaIndex2 = ludzie.findIndex(searchStudent);
 const kasiaCopy = ludzie.find(searchStudent);
 
 function searchStudent(student: any) {
-    return student.imie === "Kasia";
+    return student.imie === "Nastia";
 }
 
 //Wycinanie
